@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project | Antenna</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=100, user-scalable=1"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: rgb(0, 0, 0);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgb(122, 122, 122);
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        width: 37.5%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정 표지.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정1.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정1-1.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정2.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정2-1.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정3.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정3-1.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/뮤지컬 웹팜플렛 확정4.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정5.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정6.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정6-1.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정7.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정8.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정9.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/뮤지컬 웹팜플렛 확정9-1.png">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
